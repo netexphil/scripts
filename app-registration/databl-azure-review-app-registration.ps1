@@ -5,7 +5,7 @@ Install-Module AzureAD -AllowClobber -scope CurrentUser
 
 Write-Host "Login to Azure with an Admin account.."
 $tenancy = Connect-AzureAD # -TenantId $tenantId
-$tenantId = $tenancy.TenentID
+$tenantId = $tenancy.TenantId
 
 Write-Host "Begin API Azure App Registration Graph application"
 
